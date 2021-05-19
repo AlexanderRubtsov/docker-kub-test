@@ -8,6 +8,7 @@ metadata:
 spec:
   ports:
   - port: 9090
+    targetPort: 80
     name: http
   selector:
     app: rofl-web
